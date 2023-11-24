@@ -1,0 +1,161 @@
+[gd_scene load_steps=28 format=3 uid="uid://cfb3tkjyrdtli"]
+
+[ext_resource type="Texture2D" uid="uid://bdgqnxf47i5ts" path="res://art/Warrior/Individual Sprite/idle/Warrior_Idle_1.png" id="1_mjg0b"]
+[ext_resource type="Script" path="res://player_2Darea.gd" id="1_u78f1"]
+[ext_resource type="Texture2D" uid="uid://dmfpxrkfrx72w" path="res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_1.png" id="2_8mh60"]
+[ext_resource type="Texture2D" uid="uid://cplj5uhm1sjjw" path="res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_1.png" id="2_bmogi"]
+[ext_resource type="Texture2D" uid="uid://bwoyewcfisdqs" path="res://art/Warrior/Individual Sprite/idle/Warrior_Idle_2.png" id="2_k5l4u"]
+[ext_resource type="Texture2D" uid="uid://ct4fdpexcb1ba" path="res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_2.png" id="3_f60o2"]
+[ext_resource type="Texture2D" uid="uid://bexiqiia1qhu3" path="res://art/Warrior/Individual Sprite/idle/Warrior_Idle_3.png" id="3_qq2nt"]
+[ext_resource type="Texture2D" uid="uid://dt66rwilqqriv" path="res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_2.png" id="3_v1bg7"]
+[ext_resource type="Texture2D" uid="uid://dx7febgln3ryd" path="res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_3.png" id="4_5imap"]
+[ext_resource type="Texture2D" uid="uid://cjp7w4nxi2u5n" path="res://art/Warrior/Individual Sprite/idle/Warrior_Idle_4.png" id="4_ddccf"]
+[ext_resource type="Texture2D" uid="uid://dd6h80j5h7dfk" path="res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_3.png" id="4_u2sr4"]
+[ext_resource type="Texture2D" uid="uid://crqdglsstmgwk" path="res://art/Warrior/Individual Sprite/idle/Warrior_Idle_5.png" id="5_ogr4d"]
+[ext_resource type="Texture2D" uid="uid://cv2fyy8o14887" path="res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_4.png" id="5_s5m2q"]
+[ext_resource type="Texture2D" uid="uid://cni8vgscr43ma" path="res://art/Warrior/Individual Sprite/idle/Warrior_Idle_6.png" id="6_a10dm"]
+[ext_resource type="Texture2D" uid="uid://1dsd3y4f0eh6" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_1.png" id="8_eyoff"]
+[ext_resource type="Texture2D" uid="uid://dsqkot40fd5av" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_2.png" id="9_o66fi"]
+[ext_resource type="Texture2D" uid="uid://barwcxavx6aj7" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_3.png" id="10_2860y"]
+[ext_resource type="Texture2D" uid="uid://46l6l068u8jm" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_4.png" id="11_85aq5"]
+[ext_resource type="Texture2D" uid="uid://x2cegr17034o" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_5.png" id="12_28bk2"]
+[ext_resource type="Texture2D" uid="uid://cf1at6mx5fwgr" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_6.png" id="13_p5hb6"]
+[ext_resource type="Texture2D" uid="uid://cfi608m354uwm" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_7.png" id="14_uh16x"]
+[ext_resource type="Texture2D" uid="uid://sa5w4aij2u0r" path="res://art/Warrior/Individual Sprite/Run/Warrior_Run_8.png" id="15_ts7vh"]
+[ext_resource type="Texture2D" uid="uid://djkp0bjbh7c5s" path="res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png" id="18_eckk3"]
+[ext_resource type="Texture2D" uid="uid://b7sxftfp25v7y" path="res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png" id="19_bcxoa"]
+[ext_resource type="Texture2D" uid="uid://d0b53xe5euy1k" path="res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png" id="20_j8pvw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x8sds"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8mh60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f60o2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5imap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_s5m2q")
+}],
+"loop": true,
+"name": &"dash_forward",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_bmogi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_v1bg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_u2sr4")
+}],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mjg0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_k5l4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qq2nt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ddccf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ogr4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_a10dm")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_eckk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bcxoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j8pvw")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_eyoff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_o66fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2860y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_85aq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_28bk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_p5hb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_uh16x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ts7vh")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1carj"]
+size = Vector2(10, 5)
+
+[node name="Player" type="CharacterBody2D"]
+position = Vector2(0, -2)
+motion_mode = 1
+platform_on_leave = 2
+script = ExtResource("1_u78f1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -15)
+sprite_frames = SubResource("SpriteFrames_x8sds")
+animation = &"dash_forward"
+frame_progress = 0.500856
+
+[node name="HitCollider" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_1carj")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="ColliderTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="JumpCooldown" type="Timer" parent="."]
+wait_time = 1.015
+one_shot = true
+
+[node name="JumpReleaseDelay" type="Timer" parent="."]
+wait_time = 0.2
+
+[connection signal="animation_looped" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_looped"]
+[connection signal="timeout" from="ColliderTimer" to="." method="_on_collider_timer_timeout"]
+[connection signal="timeout" from="JumpCooldown" to="." method="_on_jump_cooldown_timeout"]
