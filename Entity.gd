@@ -8,6 +8,7 @@ var falling = 0
 var fell = false
 
 @export var max_health = 10
+@export var item: InvItem
 
 func _ready():
 	health = max_health

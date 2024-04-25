@@ -8,7 +8,8 @@ class_name Player
 @export var max_jump_count = 3
 @export var gravity = 150
 
-@export var inv = Inv
+@export var inv : Inv
+
 
 @onready var JumpCooldown = $JumpCooldown
 
@@ -135,3 +136,9 @@ func _death_scenario():
 		z_index = 0
 		falling = false
 		_on_main_screen_walkable()
+
+func player():
+	pass
+
+func collect(item):
+	inv.insert(item)

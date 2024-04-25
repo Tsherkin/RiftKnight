@@ -1,6 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://b4o6p01w1sqit"]
+[gd_scene load_steps=6 format=3 uid="uid://b4o6p01w1sqit"]
 
 [ext_resource type="Script" path="res://Entity.gd" id="1_otlix"]
+[ext_resource type="Script" path="res://Scenes/tree.gd" id="1_twpds"]
+[ext_resource type="Resource" uid="uid://k34gb8s68ie7" path="res://inventory/Items/apple.tres" id="2_ng13x"]
 [ext_resource type="Texture2D" uid="uid://ch51dei4h0rg8" path="res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Vegetation/spr_tree1.png" id="2_rcayc"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lxq8m"]
@@ -8,6 +10,8 @@ radius = 4.0
 height = 22.0
 
 [node name="Tree" type="StaticBody2D"]
+script = ExtResource("1_twpds")
+item = ExtResource("2_ng13x")
 
 [node name="Entity" type="Node" parent="."]
 script = ExtResource("1_otlix")

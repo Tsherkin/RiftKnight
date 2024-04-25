@@ -19,3 +19,6 @@ res://inventory/inv_ui_slot.gd
 res://inventory/playerinv.tres
 res://inventory/inventory.gd
 res://inventory/inv_slot.gd
+res://TreeBranch.gd
+res://Scenes/tree.gd
+res://Scenes/tree_branch.tscn

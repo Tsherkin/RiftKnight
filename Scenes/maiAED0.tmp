@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://ej8qwg5f170a"]
+[gd_scene load_steps=11 format=3 uid="uid://ej8qwg5f170a"]
 
 [ext_resource type="Script" path="res://Main screen.gd" id="1_23qw3"]
 [ext_resource type="PackedScene" uid="uid://cfb3tkjyrdtli" path="res://Scenes/player_2Darea.tscn" id="2_gcrcm"]
@@ -6,8 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://fe4ipb1xqd6m" path="res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Tileset/spr_grass_tileset.png" id="4_acsl0"]
 [ext_resource type="PackedScene" uid="uid://b4o6p01w1sqit" path="res://Scenes/tree.tscn" id="5_itsaa"]
 [ext_resource type="PackedScene" uid="uid://d16jqw4o6tv62" path="res://Scenes/tree_branch.tscn" id="6_eji0e"]
-[ext_resource type="Resource" uid="uid://k34gb8s68ie7" path="res://inventory/Items/apple.tres" id="7_rjfl0"]
-[ext_resource type="Resource" uid="uid://bdhh57b30fsn" path="res://inventory/Items/tree_branch.tres" id="8_mgb7j"]
 
 [sub_resource type="Curve2D" id="Curve2D_sqd7r"]
 _data = {
@@ -1335,8 +1333,6 @@ scale = Vector2(1, 0.986057)
 
 [node name="TreeBranch" parent="." instance=ExtResource("6_eji0e")]
 position = Vector2(-84, 93)
-item = ExtResource("7_rjfl0")
 
 [node name="TreeBranch2" parent="." instance=ExtResource("6_eji0e")]
 position = Vector2(-42, -67)
-item = ExtResource("8_mgb7j")
