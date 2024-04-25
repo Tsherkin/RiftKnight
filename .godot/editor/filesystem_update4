@@ -1,5 +1,21 @@
-res://player_2Darea.tscn
+res://Scenes/main_screen.tscn
 res://Main screen.gd
 res://player_2Darea.gd
-res://mob.tscn
-res://main_screen.tscn
+res://Scenes/player_2Darea.tscn
+res://Scenes/mob.tscn
+res://Scenes/tree.tscn
+res://Entity.gd
+res://Scenes/Sword.gd
+res://Scenes/HitBox.gd
+res://inventory_item.gd
+res://inventory/inventory_item.gd
+res://inventory.gd
+res://Floor_Find.gd
+res://inventory/Inv_UI.gd
+res://Scenes/inv_ui.tscn
+res://inventory/inv_ui.tscn
+res://inventory/inv_ui_slot.tscn
+res://inventory/inv_ui_slot.gd
+res://inventory/playerinv.tres
+res://inventory/inventory.gd
+res://inventory/inv_slot.gd
