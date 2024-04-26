@@ -1,19 +1,15 @@
-[gd_scene load_steps=13 format=3 uid="uid://ej8qwg5f170a"]
+[gd_scene load_steps=14 format=3 uid="uid://ej8qwg5f170a"]
 
 [ext_resource type="Script" path="res://Main screen.gd" id="1_23qw3"]
 [ext_resource type="PackedScene" uid="uid://cfb3tkjyrdtli" path="res://Scenes/player_2Darea.tscn" id="2_gcrcm"]
 [ext_resource type="Texture2D" uid="uid://dhj1ukkpjk2cv" path="res://art/MasterSimple.png" id="3_kwjln"]
 [ext_resource type="Texture2D" uid="uid://fe4ipb1xqd6m" path="res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Tileset/spr_grass_tileset.png" id="4_acsl0"]
 [ext_resource type="PackedScene" uid="uid://b4o6p01w1sqit" path="res://Scenes/tree.tscn" id="5_itsaa"]
-[ext_resource type="PackedScene" uid="uid://d16jqw4o6tv62" path="res://Scenes/tree_branch.tscn" id="6_eji0e"]
-[ext_resource type="Resource" uid="uid://k34gb8s68ie7" path="res://inventory/Items/apple.tres" id="7_rjfl0"]
-[ext_resource type="Resource" uid="uid://bdhh57b30fsn" path="res://inventory/Items/tree_branch.tres" id="8_mgb7j"]
-
-[sub_resource type="Curve2D" id="Curve2D_sqd7r"]
-_data = {
-"points": PackedVector2Array(0, 0, 0, 0, 0, -8, 0, 0, 0, 0, 1152, 0, 0, 0, 0, 0, 1152, 656, 0, 0, 0, 0, 0, 656, 0, 0, 0, 0, 0, -8)
-}
-point_count = 5
+[ext_resource type="PackedScene" uid="uid://d16jqw4o6tv62" path="res://Scenes/ItemDrop.tscn" id="6_qjl61"]
+[ext_resource type="Resource" uid="uid://dd3bmwt5pv4kb" path="res://inventory/Items/Resources/Banana.tres" id="7_0uj5m"]
+[ext_resource type="Resource" uid="uid://3i64k5o8v8t5" path="res://inventory/Items/Resources/Grapes.tres" id="9_5t3hp"]
+[ext_resource type="Resource" uid="uid://jhvdssvtdgjk" path="res://inventory/Items/Resources/Cherry.tres" id="9_qsiyc"]
+[ext_resource type="Resource" uid="uid://bydvrdju2dyn2" path="res://inventory/Items/Resources/Lemon.tres" id="10_c0myj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2oals"]
 resource_name = "Simple"
@@ -1256,7 +1252,7 @@ sources/1 = SubResource("TileSetAtlasSource_q0vto")
 script = ExtResource("1_23qw3")
 
 [node name="Player" parent="." instance=ExtResource("2_gcrcm")]
-position = Vector2(32, 32)
+position = Vector2(124, -34)
 motion_mode = 0
 jump_length = 200
 max_health = 25
@@ -1296,14 +1292,6 @@ editor_draw_drag_margin = true
 position = Vector2(84, -56)
 gizmo_extents = 179.2
 
-[node name="MobPath" type="Path2D" parent="."]
-visible = false
-curve = SubResource("Curve2D_sqd7r")
-
-[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
-position = Vector2(0, -8)
-rotation = 0.00694433
-
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_wgcvm")
 collision_visibility_mode = 1
@@ -1333,10 +1321,22 @@ position = Vector2(-78, 9)
 position = Vector2(100, 26)
 scale = Vector2(1, 0.986057)
 
-[node name="TreeBranch" parent="." instance=ExtResource("6_eji0e")]
-position = Vector2(-84, 93)
-item = ExtResource("7_rjfl0")
+[node name="ItemDrop" parent="." instance=ExtResource("6_qjl61")]
+position = Vector2(-48, 12)
+item = ExtResource("7_0uj5m")
 
-[node name="TreeBranch2" parent="." instance=ExtResource("6_eji0e")]
-position = Vector2(-42, -67)
-item = ExtResource("8_mgb7j")
+[node name="ItemDrop2" parent="." instance=ExtResource("6_qjl61")]
+position = Vector2(49, 85)
+item = ExtResource("9_qsiyc")
+
+[node name="ItemDrop4" parent="." instance=ExtResource("6_qjl61")]
+position = Vector2(-24, -49)
+item = ExtResource("7_0uj5m")
+
+[node name="ItemDrop3" parent="." instance=ExtResource("6_qjl61")]
+position = Vector2(39, -34)
+item = ExtResource("9_5t3hp")
+
+[node name="ItemDrop5" parent="." instance=ExtResource("6_qjl61")]
+position = Vector2(49, 26)
+item = ExtResource("10_c0myj")

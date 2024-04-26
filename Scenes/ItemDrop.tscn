@@ -1,16 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://d16jqw4o6tv62"]
+[gd_scene load_steps=3 format=3 uid="uid://d16jqw4o6tv62"]
 
-[ext_resource type="Script" path="res://TreeBranch.gd" id="1_hrpvo"]
-[ext_resource type="Texture2D" uid="uid://6ekxcj40hed3" path="res://art/Fruits&Vegetables/Fruits.png" id="2_3aaec"]
+[ext_resource type="Script" path="res://ItemDrop.gd" id="1_sf7xm"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gn3cd"]
-radius = 30.0
+radius = 7.07107
 
-[node name="TreeBranch" type="StaticBody2D"]
-script = ExtResource("1_hrpvo")
+[node name="ItemDrop" type="StaticBody2D"]
+script = ExtResource("1_sf7xm")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_3aaec")
 
 [node name="InteractableArea" type="Area2D" parent="."]
 

@@ -6,9 +6,8 @@ var step_size = 0.5
 var health = 0
 var falling = 0
 var fell = false
-
 @export var max_health = 10
-@export var item: InvItem
+@export var Inventory: Inv
 
 func _ready():
 	health = max_health
@@ -43,5 +42,10 @@ func ease_in_quint(x: float) -> float:
 	return (x * x * x * x * x) * 90
 
 func _on_death_timer_timeout():
+	var item_data = get_parent().Inventory.drop_all()
+	var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
+	item_instance.item = item_data 
+	get_parent().get_parent().add_child(item_instance)
+	print(item_instance)
 	death()
 	$"../DeathTimer".stop()

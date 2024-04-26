@@ -137,8 +137,9 @@ func _death_scenario():
 		falling = false
 		_on_main_screen_walkable()
 
-func player():
+func inventory():
 	pass
 
 func collect(item):
 	inv.insert(item)
+	#inv.drop(item)
