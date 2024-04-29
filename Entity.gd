@@ -1,51 +1,33 @@
-class_name Entity extends Node
+class_name Entity extends Node2D
 
-#var alive = true
-var step = 0
-var step_size = 0.5
 var health = 0
-var falling = 0
-var fell = false
-@export var max_health = 10
+@export var max_health = 0
 @export var Inventory: Inv
+
+signal entity_is_dead()
 
 func _ready():
 	health = max_health
 
-func _process(_delta):
-	if health <= 0:
-		# Increment the falling variable
-		falling += step_size * _delta
-		# Calculate the rotated degree based on ease_out_bounce
-		var rotated_degree = ease_in_quint(falling)
-		if !fell:
-			get_parent().set_rotation_degrees(rotated_degree)
-		print(falling)
-		if falling >= 1 and !fell:
-			print("timer")
-			fell = true
-			$"../DeathTimer".start()
-
-func set_health(ammount: int):
-	health -=ammount
+func set_health(amount: int):
+	health -= amount
 	print(health)
 	if health >= max_health:
 		health = max_health
 	elif health <= 0:
 		health = 0
- 
+		emit_signal("entity_is_dead")
+
+#Death
 func death():
 	print("DEAD")
 	get_parent().queue_free()
-	
-func ease_in_quint(x: float) -> float:
-	return (x * x * x * x * x) * 90
 
-func _on_death_timer_timeout():
-	var item_data = get_parent().Inventory.drop_all()
-	var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
-	item_instance.item = item_data 
-	get_parent().get_parent().add_child(item_instance)
-	print(item_instance)
-	death()
-	$"../DeathTimer".stop()
+#func _on_death_timer_timeout():
+	#var item_data = get_parent().Inventory.drop_all()
+	#var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
+	#item_instance.item = item_data
+	#get_parent().get_parent().add_child(item_instance)
+	#print(item_instance)
+	#death()
+	#$"../DeathTimer".stop()

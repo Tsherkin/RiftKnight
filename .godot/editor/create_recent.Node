@@ -1,3 +1,6 @@
+Timer
+Node2D
+Entity
 Inv
 Node
 CollisionShape2D
@@ -10,6 +13,3 @@ CenterContainer
 GridContainer
 NinePatchRect
 ColorRect
-Control
-AnimationTree
-AnimatedSprite2D

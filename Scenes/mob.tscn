@@ -1,9 +1,22 @@
-[gd_scene load_steps=26 format=3 uid="uid://bfvrvksrc01d1"]
+[gd_scene load_steps=32 format=3 uid="uid://bfvrvksrc01d1"]
 
 [ext_resource type="Script" path="res://Mob.gd" id="1_28xtg"]
+[ext_resource type="Script" path="res://Entity.gd" id="2_qql0i"]
 [ext_resource type="Texture2D" uid="uid://duyr4gf748vfy" path="res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_hurt.png" id="2_sql7a"]
 [ext_resource type="Texture2D" uid="uid://os2xxben5lj1" path="res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_idle.png" id="3_4ojqt"]
+[ext_resource type="Script" path="res://inventory/inventory.gd" id="3_svc0r"]
 [ext_resource type="Texture2D" uid="uid://dl40wambadm74" path="res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_walk.png" id="4_v4ypx"]
+[ext_resource type="Resource" uid="uid://3i64k5o8v8t5" path="res://inventory/Items/Resources/Grapes.tres" id="4_xus4g"]
+[ext_resource type="Script" path="res://inventory/inv_slot.gd" id="5_u4hf2"]
+
+[sub_resource type="Resource" id="Resource_82ouj"]
+script = ExtResource("5_u4hf2")
+item = ExtResource("4_xus4g")
+amount = 1
+
+[sub_resource type="Resource" id="Resource_oe2ra"]
+script = ExtResource("3_svc0r")
+slots = Array[ExtResource("5_u4hf2")]([SubResource("Resource_82ouj")])
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hcxh1"]
 atlas = ExtResource("2_sql7a")
@@ -159,18 +172,22 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a6cpl"]
 size = Vector2(12, 19)
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" node_paths=PackedStringArray("entity")]
 position = Vector2(438, 299)
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_28xtg")
+entity = NodePath("Entity")
 metadata/_edit_group_ = true
 
+[node name="Entity" type="Node2D" parent="."]
+script = ExtResource("2_qql0i")
+max_health = 10
+Inventory = SubResource("Resource_oe2ra")
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_py0ls")
-animation = &"walk"
-frame_progress = 0.730778
+animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -2.5)
