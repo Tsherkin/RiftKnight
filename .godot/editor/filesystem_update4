@@ -16,3 +16,4 @@ res://Scenes/tree.tscn
 res://Entity.gd
 res://Scenes/entity.tscn
 res://Scenes/tree.gd
+res://player_2Darea.gd

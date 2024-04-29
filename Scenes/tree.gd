@@ -23,7 +23,7 @@ func _process(_delta):
 		print(falling)
 		if falling >= 1 and !fell:
 			fell = true
-			$DeathTimer.start()
+			entity.dead()
 
 #This is a math func from easing.net. Translated by chatGPT
 func ease_in_quint(x: float) -> float:
@@ -32,15 +32,15 @@ func ease_in_quint(x: float) -> float:
 func on_entity_is_dead():
 	dead = true
 
-func _on_death_timer_timeout():
-	var item_data = entity.Inventory.drop_all()
-	var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
-	item_instance.item = item_data
-	item_instance.position = position
-	get_parent().add_child(item_instance)
-	print(item_instance)
-	$DeathTimer.stop()
-	queue_free()
+#func _on_death_timer_timeout():
+	#var item_data = entity.Inventory.drop_all()
+	#var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
+	#item_instance.item = item_data
+	#item_instance.position = position
+	#get_parent().add_child(item_instance)
+	#print(item_instance)
+	#$DeathTimer.stop()
+	#queue_free()
 	
 	
 #@export var item_drop: PackedScene

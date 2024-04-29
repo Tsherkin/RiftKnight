@@ -36,7 +36,3 @@ offset = Vector2(0, -20)
 position = Vector2(0, -4)
 scale = Vector2(1, 0.991689)
 shape = SubResource("CapsuleShape2D_lxq8m")
-
-[node name="DeathTimer" type="Timer" parent="."]
-
-[connection signal="timeout" from="DeathTimer" to="." method="_on_death_timer_timeout"]

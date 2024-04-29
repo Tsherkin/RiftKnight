@@ -23,6 +23,17 @@ func death():
 	print("DEAD")
 	get_parent().queue_free()
 
+func dead():
+	await get_tree().create_timer(1.0).timeout
+	var item_data = Inventory.drop_all()
+	var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
+	item_instance.item = item_data
+	item_instance.position = get_parent().position
+	get_parent().get_parent().add_child(item_instance)
+	print(item_instance)
+	death()
+
+
 #func _on_death_timer_timeout():
 	#var item_data = get_parent().Inventory.drop_all()
 	#var item_instance = load("res://Scenes/ItemDrop.tscn").instantiate()
@@ -31,3 +42,6 @@ func death():
 	#print(item_instance)
 	#death()
 	#$"../DeathTimer".stop()
+
+
+

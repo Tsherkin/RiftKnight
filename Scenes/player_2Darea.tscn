@@ -200,8 +200,6 @@ inv = ExtResource("2_hq53f")
 position = Vector2(0, -15)
 sprite_frames = SubResource("SpriteFrames_x8sds")
 animation = &"attack"
-frame = 7
-frame_progress = 0.224508
 
 [node name="HitCollider" type="CollisionShape2D" parent="."]
 position = Vector2(0, -15)

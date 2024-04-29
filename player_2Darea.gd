@@ -58,7 +58,9 @@ func _process(_delta):
 		$AnimatedSprite2D.animation = "dash_forward"
 	elif velocity.x != 0 || velocity.y != 0 && jump == false:
 		$AnimatedSprite2D.animation = "run"
-		$AnimatedSprite2D.flip_h = velocity.x < 0
+		if velocity.x != 0:
+				$AnimatedSprite2D.flip_h = velocity.x < 0
+		print(velocity.x)
 		emit_signal("facing_direction_changed", $AnimatedSprite2D.flip_h)
 	elif falling:
 		$AnimatedSprite2D.animation = "fall"
