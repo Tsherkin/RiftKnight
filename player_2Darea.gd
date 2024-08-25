@@ -45,7 +45,14 @@ func _process(_delta):
 		$AnimatedSprite2D.animation = "dash_forward"
 	elif velocity.x != 0 || velocity.y != 0 && jump == false:
 		$AnimatedSprite2D.animation = "run"
+<<<<<<< Updated upstream
 		$AnimatedSprite2D.flip_h = velocity.x < 0
+=======
+		if velocity.x != 0:
+				$AnimatedSprite2D.flip_h = velocity.x < 0
+		#print(velocity.x)
+		emit_signal("facing_direction_changed", $AnimatedSprite2D.flip_h)
+>>>>>>> Stashed changes
 	elif falling:
 		$AnimatedSprite2D.animation = "fall"
 	else:
@@ -57,7 +64,7 @@ func start(pos):
 	position = pos
 	show()
 	$HitCollider.disabled = false
-	
+
 func _jump():
 	if jump_count < max_jump_count and velocity:
 		jump = true
@@ -86,6 +93,7 @@ func _on_main_screen_walkable():
 		$HitCollider.disabled = true
 		$ColliderTimer.start()
 	move_and_slide()
+
 func _on_collider_timer_timeout():
 	print("not ghosting")
 	$HitCollider.disabled = false

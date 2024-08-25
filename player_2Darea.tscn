@@ -131,6 +131,7 @@ size = Vector2(10, 5)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(0, -2)
+collision_layer = 3
 motion_mode = 1
 platform_on_leave = 2
 script = ExtResource("1_u78f1")
@@ -142,8 +143,14 @@ animation = &"dash_forward"
 frame_progress = 0.500856
 
 [node name="HitCollider" type="CollisionShape2D" parent="."]
+<<<<<<< Updated upstream:player_2Darea.tscn
 position = Vector2(0, 2)
 shape = SubResource("RectangleShape2D_1carj")
+=======
+visible = false
+position = Vector2(0, -15)
+shape = SubResource("CapsuleShape2D_br46r")
+>>>>>>> Stashed changes:Scenes/player_2Darea.tscn
 debug_color = Color(0, 0.6, 0.701961, 0.419608)
 
 [node name="ColliderTimer" type="Timer" parent="."]
@@ -153,8 +160,30 @@ one_shot = true
 wait_time = 1.015
 one_shot = true
 
+<<<<<<< Updated upstream:player_2Darea.tscn
 [node name="JumpReleaseDelay" type="Timer" parent="."]
 wait_time = 0.2
+=======
+[node name="Sword" type="Area2D" parent="." node_paths=PackedStringArray("player", "hit_box")]
+script = ExtResource("38_ifwg2")
+player = NodePath("..")
+hit_box = NodePath("HitBox")
+
+[node name="HitBox" type="CollisionShape2D" parent="Sword"]
+visible = false
+position = Vector2(20, -15)
+scale = Vector2(0.963, 1.62063)
+shape = SubResource("RectangleShape2D_f4vya")
+script = ExtResource("39_vh6kc")
+facing_left = Vector2(-20, -15)
+facing_right = Vector2(20, -15)
+
+[node name="Inv_UI" parent="." instance=ExtResource("41_4ilr0")]
+offset_left = -28.0
+offset_top = -92.0
+offset_right = 28.0
+offset_bottom = -36.0
+>>>>>>> Stashed changes:Scenes/player_2Darea.tscn
 
 [connection signal="animation_looped" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_looped"]
 [connection signal="timeout" from="ColliderTimer" to="." method="_on_collider_timer_timeout"]
