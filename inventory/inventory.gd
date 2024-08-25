@@ -3,6 +3,7 @@ extends Resource
 class_name Inv
 
 signal update
+signal full
 
 @export var slots: Array[InvSlot]
 
@@ -16,6 +17,8 @@ func insert(item: InvItem):
 		if !emptyslots.is_empty():
 			emptyslots[0].item = item
 			emptyslots[0].amount = 1
+		else:
+			full.emit()
 	update.emit()
 
 func drop_all():

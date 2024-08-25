@@ -5,6 +5,7 @@ var health = 0
 @export var Inventory: Inv
 
 signal entity_is_dead()
+signal entity_took_damage()
 
 func _ready():
 	health = max_health
@@ -12,6 +13,7 @@ func _ready():
 func set_health(amount: int):
 	health -= amount
 	print(health)
+	emit_signal("entity_took_damage")
 	if health >= max_health:
 		health = max_health
 	elif health <= 0:
@@ -42,6 +44,3 @@ func dead():
 	#print(item_instance)
 	#death()
 	#$"../DeathTimer".stop()
-
-
-

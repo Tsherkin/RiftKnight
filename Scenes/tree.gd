@@ -53,6 +53,3 @@ func on_entity_is_dead():
 	#level_parent.add_child(item_drop_instance)
 	#item_drop_instance.item = item
 	#
-
-
-

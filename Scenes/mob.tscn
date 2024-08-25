@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://bfvrvksrc01d1"]
+[gd_scene load_steps=33 format=3 uid="uid://bfvrvksrc01d1"]
 
 [ext_resource type="Script" path="res://Mob.gd" id="1_28xtg"]
 [ext_resource type="Script" path="res://Entity.gd" id="2_qql0i"]
@@ -172,6 +172,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a6cpl"]
 size = Vector2(12, 19)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_rnwuu"]
+
 [node name="Mob" type="RigidBody2D" node_paths=PackedStringArray("entity")]
 position = Vector2(438, 299)
 collision_mask = 0
@@ -187,10 +189,20 @@ Inventory = SubResource("Resource_oe2ra")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_py0ls")
-animation = &"idle"
+animation = &"hurt"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -2.5)
 shape = SubResource("RectangleShape2D_a6cpl")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="TriggerArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerArea"]
+scale = Vector2(5, 5)
+shape = SubResource("CircleShape2D_rnwuu")
+
+[connection signal="animation_looped" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_looped"]
+[connection signal="body_entered" from="TriggerArea" to="." method="_on_trigger_area_body_entered"]
+[connection signal="body_exited" from="TriggerArea" to="." method="_on_trigger_area_body_exited"]

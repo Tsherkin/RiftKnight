@@ -7,9 +7,7 @@ class_name Player
 @export var max_health = 10
 @export var max_jump_count = 3
 @export var gravity = 150
-
 @export var inv : Inv
-
 
 @onready var JumpCooldown = $JumpCooldown
 
@@ -60,7 +58,7 @@ func _process(_delta):
 		$AnimatedSprite2D.animation = "run"
 		if velocity.x != 0:
 				$AnimatedSprite2D.flip_h = velocity.x < 0
-		print(velocity.x)
+		#print(velocity.x)
 		emit_signal("facing_direction_changed", $AnimatedSprite2D.flip_h)
 	elif falling:
 		$AnimatedSprite2D.animation = "fall"

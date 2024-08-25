@@ -1,62 +1,62 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714418735
-Entity.gd::GDScript::-1::1714418735::0::1::::Entity<>Node2D<>::
-Floor_Find.gd::GDScript::-1::1714331087::0::1::::<>CollisionShape2D<>::
+::res://::1724574498
+Entity.gd::GDScript::-1::1724574448::0::1::::Entity<>Node2D<>::
+Floor_Find.gd::GDScript::-1::1724574448::0::1::::<>CollisionShape2D<>::
 icon.svg::CompressedTexture2D::4933327054161233628::1697654598::1697654611::1::::<><>::
-ItemDrop.gd::GDScript::-1::1714331087::0::1::::ItemDrop<>StaticBody2D<>::
-Main screen.gd::GDScript::-1::1714331087::0::1::::<>Node<>::
-Mob.gd::GDScript::-1::1714418663::0::1::::Mob<>RigidBody2D<>::
-player_2Darea.gd::GDScript::-1::1714137548::0::1::::Player<>CharacterBody2D<>::
+ItemDrop.gd::GDScript::-1::1724574448::0::1::::ItemDrop<>StaticBody2D<>::
+Main screen.gd::GDScript::-1::1724574174::0::1::::<>Node<>::
+Mob.gd::GDScript::-1::1724574448::0::1::::Mob<>RigidBody2D<>::
+player_2Darea.gd::GDScript::-1::1724574448::0::1::::Player<>CharacterBody2D<>::
 Teleporter.gd::GDScript::-1::1698698157::0::1::::<>Area2D<>::
-::res://art/::1713983253
+::res://art/::1724574448
 87044533-f5e89f00-c1f6-11ea-9178-67b2e357ee8a.png::CompressedTexture2D::7511786591092497329::1699052939::1699053721::1::::<><>::
 MasterSimple.png::CompressedTexture2D::7670778255397622149::1697747188::1697747195::1::::<><>::
-socials_1.png::CompressedTexture2D::2696486710669160849::1649321250::1713983253::1::::<><>::
-socials_2.png::CompressedTexture2D::3828910714794253290::1649321250::1713983253::1::::<><>::
-socials_3.png::CompressedTexture2D::1581543908111191279::1649321250::1713983253::1::::<><>::
-::res://art/Buttons/::1713983254
-buttons_1x.png::CompressedTexture2D::669413265295525566::1642723443::1713983254::1::::<><>::
-buttons_2x.png::CompressedTexture2D::4456267258852363350::1642723451::1713983254::1::::<><>::
-buttons_4x.png::CompressedTexture2D::5223241928900216712::1642723462::1713983254::1::::<><>::
-::res://art/Buttons/Sliced/::1713983254
-buttons_1x_sliced.png::CompressedTexture2D::6749345654745446972::1642722285::1713983254::1::::<><>::
-buttons_2x_sliced.png::CompressedTexture2D::7088696744899858145::1642723500::1713983254::1::::<><>::
-buttons_4x_sliced.png::CompressedTexture2D::4153456929182369883::1642723511::1713983254::1::::<><>::
-::res://art/Controller/::1713983254
-analog.png::CompressedTexture2D::6834386072402822213::1647560846::1713983254::1::::<><>::
-controller_atlas_1x.png::CompressedTexture2D::7218582093145823355::1647561133::1713983254::1::::<><>::
-controller_atlas_2x.png::CompressedTexture2D::5967174330148256532::1647561463::1713983254::1::::<><>::
-controller_atlas_4x.png::CompressedTexture2D::884084759532492790::1647561480::1713983254::1::::<><>::
-ps_style1.png::CompressedTexture2D::5049062098322358903::1647560626::1713983253::1::::<><>::
-ps_style2.png::CompressedTexture2D::5758552265383265566::1647560637::1713983253::1::::<><>::
-xbox_style1.png::CompressedTexture2D::6781148236555622065::1647560480::1713983253::1::::<><>::
-xbox_style2.png::CompressedTexture2D::3928142310842704671::1647560540::1713983253::1::::<><>::
-::res://art/Fruits&Vegetables/::1713978534
-apple.png::CompressedTexture2D::4138915709503653676::1713978380::1713978534::1::::<><>::
-banana.png::CompressedTexture2D::1261627299978935325::1713978380::1713978534::1::::<><>::
-cherry.png::CompressedTexture2D::79906349705037415::1713978380::1713978534::1::::<><>::
-Fruits.png::CompressedTexture2D::2184760027283975866::1713977919::1713977924::1::::<><>::
-grapes.png::CompressedTexture2D::5218262023242310661::1713978380::1713978534::1::::<><>::
-lemon.png::CompressedTexture2D::1100529952832458690::1713978380::1713978534::1::::<><>::
-lime.png::CompressedTexture2D::1373130771570218355::1713978380::1713978534::1::::<><>::
-orange.png::CompressedTexture2D::7363860569402085959::1713978380::1713978534::1::::<><>::
-pear.png::CompressedTexture2D::8971986686020210387::1713978380::1713978534::1::::<><>::
-Vegtables.png::CompressedTexture2D::1724113292489931347::1713977919::1713977924::1::::<><>::
-zap.png::CompressedTexture2D::6388090083663793578::1713978380::1713978534::1::::<><>::
-::res://art/GUI/::1713983535
-GUI1.png::CompressedTexture2D::5938155632143584386::1713983531::1713983535::1::::<><>::
-GUI2.png::CompressedTexture2D::4305187317264517198::1713983531::1713983535::1::::<><>::
-GUI3.png::CompressedTexture2D::3412779980365113439::1713983531::1713983535::1::::<><>::
-GUI4.png::CompressedTexture2D::4428626400738398061::1713983531::1713983535::1::::<><>::
-GUI5.png::CompressedTexture2D::4572212792963367259::1713983531::1713983535::1::::<><>::
-GUI6.png::CompressedTexture2D::5271319809580681617::1713983531::1713983535::1::::<><>::
-GUI_1x.png::CompressedTexture2D::7284788592608069698::1642723315::1713983253::1::::<><>::
-GUI_2x.png::CompressedTexture2D::5048556919356602718::1642723335::1713983253::1::::<><>::
-GUI_4x.png::CompressedTexture2D::7781033028467512004::1642723359::1713983253::1::::<><>::
-::res://art/GUI/Sliced/::1713983253
-GUI_1x_sliced.png::CompressedTexture2D::5700583095193407282::1642723228::1713983253::1::::<><>::
-GUI_2x_sliced.png::CompressedTexture2D::1561918426319091193::1642723216::1713983253::1::::<><>::
-GUI_4x_sliced.png::CompressedTexture2D::1841616282444691311::1642723378::1713983253::1::::<><>::
+socials_1.png::CompressedTexture2D::2696486710669160849::1724574448::1724574502::1::::<><>::
+socials_2.png::CompressedTexture2D::3828910714794253290::1724574448::1724574502::1::::<><>::
+socials_3.png::CompressedTexture2D::1581543908111191279::1724574448::1724574502::1::::<><>::
+::res://art/Buttons/::1724574448
+buttons_1x.png::CompressedTexture2D::669413265295525566::1724574448::1724574502::1::::<><>::
+buttons_2x.png::CompressedTexture2D::4456267258852363350::1724574448::1724574502::1::::<><>::
+buttons_4x.png::CompressedTexture2D::5223241928900216712::1724574448::1724574502::1::::<><>::
+::res://art/Buttons/Sliced/::1724574448
+buttons_1x_sliced.png::CompressedTexture2D::6749345654745446972::1724574448::1724574502::1::::<><>::
+buttons_2x_sliced.png::CompressedTexture2D::7088696744899858145::1724574448::1724574502::1::::<><>::
+buttons_4x_sliced.png::CompressedTexture2D::4153456929182369883::1724574448::1724574502::1::::<><>::
+::res://art/Controller/::1724574448
+analog.png::CompressedTexture2D::6834386072402822213::1724574448::1724574502::1::::<><>::
+controller_atlas_1x.png::CompressedTexture2D::7218582093145823355::1724574448::1724574502::1::::<><>::
+controller_atlas_2x.png::CompressedTexture2D::5967174330148256532::1724574448::1724574502::1::::<><>::
+controller_atlas_4x.png::CompressedTexture2D::884084759532492790::1724574448::1724574502::1::::<><>::
+ps_style1.png::CompressedTexture2D::5049062098322358903::1724574448::1724574502::1::::<><>::
+ps_style2.png::CompressedTexture2D::5758552265383265566::1724574448::1724574502::1::::<><>::
+xbox_style1.png::CompressedTexture2D::6781148236555622065::1724574448::1724574502::1::::<><>::
+xbox_style2.png::CompressedTexture2D::3928142310842704671::1724574448::1724574502::1::::<><>::
+::res://art/Fruits&Vegetables/::1724574448
+apple.png::CompressedTexture2D::4138915709503653676::1724574448::1724574502::1::::<><>::
+banana.png::CompressedTexture2D::1261627299978935325::1724574448::1724574502::1::::<><>::
+cherry.png::CompressedTexture2D::79906349705037415::1724574448::1724574502::1::::<><>::
+Fruits.png::CompressedTexture2D::2184760027283975866::1724574448::1724574502::1::::<><>::
+grapes.png::CompressedTexture2D::5218262023242310661::1724574448::1724574502::1::::<><>::
+lemon.png::CompressedTexture2D::1100529952832458690::1724574448::1724574502::1::::<><>::
+lime.png::CompressedTexture2D::1373130771570218355::1724574448::1724574502::1::::<><>::
+orange.png::CompressedTexture2D::7363860569402085959::1724574448::1724574502::1::::<><>::
+pear.png::CompressedTexture2D::8971986686020210387::1724574448::1724574502::1::::<><>::
+Vegtables.png::CompressedTexture2D::1724113292489931347::1724574448::1724574502::1::::<><>::
+zap.png::CompressedTexture2D::6388090083663793578::1724574448::1724574502::1::::<><>::
+::res://art/GUI/::1724574448
+GUI1.png::CompressedTexture2D::5938155632143584386::1724574448::1724574502::1::::<><>::
+GUI2.png::CompressedTexture2D::4305187317264517198::1724574448::1724574502::1::::<><>::
+GUI3.png::CompressedTexture2D::3412779980365113439::1724574448::1724574502::1::::<><>::
+GUI4.png::CompressedTexture2D::4428626400738398061::1724574448::1724574502::1::::<><>::
+GUI5.png::CompressedTexture2D::4572212792963367259::1724574448::1724574502::1::::<><>::
+GUI6.png::CompressedTexture2D::5271319809580681617::1724574448::1724574502::1::::<><>::
+GUI_1x.png::CompressedTexture2D::7284788592608069698::1724574448::1724574502::1::::<><>::
+GUI_2x.png::CompressedTexture2D::5048556919356602718::1724574448::1724574502::1::::<><>::
+GUI_4x.png::CompressedTexture2D::7781033028467512004::1724574448::1724574502::1::::<><>::
+::res://art/GUI/Sliced/::1724574448
+GUI_1x_sliced.png::CompressedTexture2D::5700583095193407282::1724574448::1724574502::1::::<><>::
+GUI_2x_sliced.png::CompressedTexture2D::1561918426319091193::1724574448::1724574502::1::::<><>::
+GUI_4x_sliced.png::CompressedTexture2D::1841616282444691311::1724574448::1724574502::1::::<><>::
 ::res://art/Pixelarium - Enemy Pack1 - Free Version/::1694319983
 read_me.txt::TextFile::-1::1694149460::0::1::::<><>::
 ::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/::1697665922
@@ -172,19 +172,19 @@ Read me pls.txt::TextFile::-1::1677266610::0::1::::<><>::
 Contact.txt::TextFile::-1::1601133101::0::1::::<><>::
 License.txt::TextFile::-1::1601132957::0::1::::<><>::
 ::res://art/Warrior/Individual Sprite/::1604581305
-::res://art/Warrior/Individual Sprite/Attack/::1714420053
-Warrior_Attack_1.png::CompressedTexture2D::4735322861724687185::1714420268::1714420270::1::::<><>::
-Warrior_Attack_2.png::CompressedTexture2D::5256158649457096659::1714420268::1714420270::1::::<><>::
-Warrior_Attack_3.png::CompressedTexture2D::8134810550446795868::1714420268::1714420270::1::::<><>::
-Warrior_Attack_4.png::CompressedTexture2D::1260078402805423335::1714420268::1714420270::1::::<><>::
-Warrior_Attack_5.png::CompressedTexture2D::4403897885685762841::1714420268::1714420270::1::::<><>::
-Warrior_Attack_6.png::CompressedTexture2D::8834860725375579353::1714420268::1714420270::1::::<><>::
-Warrior_Attack_7.png::CompressedTexture2D::8091832384611240673::1714420268::1714420270::1::::<><>::
-Warrior_Attack_8.png::CompressedTexture2D::2161363547803328156::1714420268::1714420270::1::::<><>::
-Warrior_Attack_9.png::CompressedTexture2D::8420992231844531962::1714420268::1714420270::1::::<><>::
-Warrior_Attack_10.png::CompressedTexture2D::7041985568946331665::1714420268::1714420270::1::::<><>::
-Warrior_Attack_11.png::CompressedTexture2D::840565875637964299::1714420268::1714420270::1::::<><>::
-Warrior_Attack_12.png::CompressedTexture2D::6055090746872320250::1714420268::1714420270::1::::<><>::
+::res://art/Warrior/Individual Sprite/Attack/::1724574448
+Warrior_Attack_1.png::CompressedTexture2D::4735322861724687185::1724574448::1724574502::1::::<><>::
+Warrior_Attack_2.png::CompressedTexture2D::5256158649457096659::1724574448::1724574502::1::::<><>::
+Warrior_Attack_3.png::CompressedTexture2D::8134810550446795868::1724574448::1724574502::1::::<><>::
+Warrior_Attack_4.png::CompressedTexture2D::1260078402805423335::1724574448::1724574502::1::::<><>::
+Warrior_Attack_5.png::CompressedTexture2D::4403897885685762841::1724574448::1724574502::1::::<><>::
+Warrior_Attack_6.png::CompressedTexture2D::8834860725375579353::1724574448::1724574502::1::::<><>::
+Warrior_Attack_7.png::CompressedTexture2D::8091832384611240673::1724574448::1724574502::1::::<><>::
+Warrior_Attack_8.png::CompressedTexture2D::2161363547803328156::1724574448::1724574502::1::::<><>::
+Warrior_Attack_9.png::CompressedTexture2D::8420992231844531962::1724574448::1724574502::1::::<><>::
+Warrior_Attack_10.png::CompressedTexture2D::7041985568946331665::1724574448::1724574502::1::::<><>::
+Warrior_Attack_11.png::CompressedTexture2D::840565875637964299::1724574448::1724574502::1::::<><>::
+Warrior_Attack_12.png::CompressedTexture2D::6055090746872320250::1724574448::1724574502::1::::<><>::
 ::res://art/Warrior/Individual Sprite/Crouch/::1697656183
 Warrior_Crouch_1.png::CompressedTexture2D::8014779821177727180::1603294120::1697656183::1::::<><>::
 Warrior_Crouch_2.png::CompressedTexture2D::6701401453371264231::1603294121::1697656183::1::::<><>::
@@ -338,30 +338,30 @@ Warrior_Sheet-Effect.png::CompressedTexture2D::6949796807414177835::1604845423::
 Warrior_SheetnoEffect.png::CompressedTexture2D::5590571579915706494::1604845444::1697656183::1::::<><>::
 ::res://fonts/::1697655765
 Retro Gaming.ttf::FontFile::3100635085281283184::1550854830::1697655765::1::::<><>::
-::res://inventory/::1714420126
-inventory.gd::GDScript::-1::1714331087::0::1::::Inv<>Resource<>::
-inventory_item.gd::GDScript::-1::1714063644::0::1::::InvItem<>Resource<>::
-inv_slot.gd::GDScript::-1::1714131816::0::1::::InvSlot<>Resource<>::
-Inv_UI.gd::GDScript::-1::1714061371::0::1::::<>Control<>::
-inv_ui.tscn::PackedScene::735168753348958778::1714420126::0::1::::<><>::res://inventory/Inv_UI.gd<>uid://cquqs5mxhpa63::::res://art/GUI/GUI1.png<>uid://5x2osjlqit62::::res://inventory/inv_ui_slot.tscn
-inv_ui_slot.gd::GDScript::-1::1714032143::0::1::::<>Panel<>::
-inv_ui_slot.tscn::PackedScene::2154811317248760293::1714420126::0::1::::<><>::uid://b2lp2n4ywf0e1::::res://art/GUI/GUI2.png<>res://inventory/inv_ui_slot.gd
-playerinv.tres::Resource/Inv::9014699056408122231::1714331088::0::1::::<><>::res://inventory/inventory.gd<>res://inventory/inv_slot.gd
-::res://inventory/Items/::1714064502
-::res://inventory/Items/Resources/::1714331088
-Apple.tres::Resource/InvItem::761462625410120768::1714331088::0::1::::<><>::res://inventory/inventory_item.gd<>uid://by76lpuyqy3sy::::res://art/Fruits&Vegetables/apple.png
-Banana.tres::Resource/Resource::7427714491875653345::1714064427::0::1::::<><>::res://inventory/inventory_item.gd<>uid://r8e212ls60d2::::res://art/Fruits&Vegetables/banana.png
-Cherry.tres::Resource/Resource::647431625456961852::1714071750::0::1::::<><>::res://inventory/inventory_item.gd<>uid://beybtci0h7mh::::res://art/Fruits&Vegetables/cherry.png
-Grapes.tres::Resource/Resource::1983737230955080480::1714070336::0::1::::<><>::res://inventory/inventory_item.gd<>uid://cgl1apf4wax8h::::res://art/Fruits&Vegetables/grapes.png
-Lemon.tres::Resource/Resource::4078451652030762429::1714070359::0::1::::<><>::res://inventory/inventory_item.gd<>uid://pxdtkcly33xe::::res://art/Fruits&Vegetables/lemon.png
-::res://Scenes/::1714420126
-Enemy.tscn::PackedScene::5039389183976843691::1713884955::0::1::::<><>::
-entity.tscn::PackedScene::8069955230015758960::1714420126::0::1::::<><>::res://Entity.gd
-HitBox.gd::GDScript::-1::1713975874::0::1::::HitBox<>CollisionShape2D<>::
-ItemDrop.tscn::PackedScene::9048743922672700437::1714420126::0::1::::<><>::res://ItemDrop.gd
-main_screen.tscn::PackedScene::301368173955772978::1714420125::0::1::::<><>::res://Main screen.gd<>uid://cfb3tkjyrdtli::::res://Scenes/player_2Darea.tscn<>uid://dhj1ukkpjk2cv::::res://art/MasterSimple.png<>uid://fe4ipb1xqd6m::::res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Tileset/spr_grass_tileset.png<>uid://b4o6p01w1sqit::::res://Scenes/tree.tscn<>uid://bfvrvksrc01d1::::res://Scenes/mob.tscn<>uid://d16jqw4o6tv62::::res://Scenes/ItemDrop.tscn<>uid://dd3bmwt5pv4kb::::res://inventory/Items/Resources/Banana.tres<>uid://3i64k5o8v8t5::::res://inventory/Items/Resources/Grapes.tres<>uid://jhvdssvtdgjk::::res://inventory/Items/Resources/Cherry.tres<>uid://bydvrdju2dyn2::::res://inventory/Items/Resources/Lemon.tres
-mob.tscn::PackedScene::2781787079083619568::1714420126::0::1::::<><>::res://Mob.gd<>res://Entity.gd<>uid://duyr4gf748vfy::::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_hurt.png<>uid://os2xxben5lj1::::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_idle.png<>res://inventory/inventory.gd<>uid://dl40wambadm74::::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_walk.png<>uid://3i64k5o8v8t5::::res://inventory/Items/Resources/Grapes.tres<>res://inventory/inv_slot.gd
-player_2Darea.tscn::PackedScene::5127584509462127154::1714420126::0::1::::<><>::uid://bdgqnxf47i5ts::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_1.png<>res://player_2Darea.gd<>uid://dmfpxrkfrx72w::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_1.png<>uid://b8p3ctrbwe1eb::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_1.png<>uid://cplj5uhm1sjjw::::res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_1.png<>uid://d1o11nrovhut0::::res://inventory/playerinv.tres<>uid://bwoyewcfisdqs::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_2.png<>uid://cg5efu1bchnt8::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_2.png<>uid://ct4fdpexcb1ba::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_2.png<>uid://bexiqiia1qhu3::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_3.png<>uid://dt66rwilqqriv::::res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_2.png<>uid://dx7febgln3ryd::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_3.png<>uid://cjp7w4nxi2u5n::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_4.png<>uid://dn5te2j5mhywy::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_3.png<>uid://dd6h80j5h7dfk::::res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_3.png<>uid://r7nkpd7861m6::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_4.png<>uid://crqdglsstmgwk::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_5.png<>uid://cv2fyy8o14887::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_4.png<>uid://b30js4kjmxo3r::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_5.png<>uid://cni8vgscr43ma::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_6.png<>uid://dx4w4omas2uib::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_6.png<>uid://1dsd3y4f0eh6::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_1.png<>uid://dnj0kdq57asrx::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_7.png<>uid://dsqkot40fd5av::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_2.png<>uid://518lvggxax13::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_8.png<>uid://barwcxavx6aj7::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_3.png<>uid://dr8grntjnpgfq::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_9.png<>uid://c7lgqdln113cn::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_10.png<>uid://46l6l068u8jm::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_4.png<>uid://l8f85yrsrf6r::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_11.png<>uid://x2cegr17034o::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_5.png<>uid://cf1at6mx5fwgr::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_6.png<>uid://csjepvxr6rfxa::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_12.png<>uid://cfi608m354uwm::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_7.png<>uid://sa5w4aij2u0r::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_8.png<>uid://djkp0bjbh7c5s::::res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png<>uid://b7sxftfp25v7y::::res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png<>uid://d0b53xe5euy1k::::res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png<>res://Scenes/Sword.gd<>res://Scenes/HitBox.gd<>uid://kqeee8pcvpaw::::res://inventory/inv_ui.tscn
-Sword.gd::GDScript::-1::1714331087::0::1::::<>Area2D<>::
-tree.gd::GDScript::-1::1714418547::0::1::::_Tree<>StaticBody2D<>::
-tree.tscn::PackedScene::4452708805720929619::1714420126::0::1::::<><>::res://Scenes/tree.gd<>uid://k34gb8s68ie7::::res://inventory/Items/Resources/Apple.tres<>res://inventory/inventory.gd<>uid://ch51dei4h0rg8::::res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Vegetation/spr_tree1.png<>res://inventory/inv_slot.gd<>uid://dm8e8pbsj6x1y::::res://Scenes/entity.tscn
+::res://inventory/::1724574448
+inventory.gd::GDScript::-1::1724574448::0::1::::Inv<>Resource<>::
+inventory_item.gd::GDScript::-1::1724574448::0::1::::InvItem<>Resource<>::
+inv_slot.gd::GDScript::-1::1724574448::0::1::::InvSlot<>Resource<>::
+Inv_UI.gd::GDScript::-1::1724574448::0::1::::<>Control<>::
+inv_ui.tscn::PackedScene::735168753348958778::1724574448::0::1::::<><>::res://inventory/Inv_UI.gd<>uid://cquqs5mxhpa63::::res://art/GUI/GUI1.png<>uid://5x2osjlqit62::::res://inventory/inv_ui_slot.tscn
+inv_ui_slot.gd::GDScript::-1::1724574448::0::1::::<>Panel<>::
+inv_ui_slot.tscn::PackedScene::2154811317248760293::1724574448::0::1::::<><>::uid://b2lp2n4ywf0e1::::res://art/GUI/GUI2.png<>res://inventory/inv_ui_slot.gd
+playerinv.tres::Resource/Inv::9014699056408122231::1724574448::0::1::::<><>::res://inventory/inventory.gd<>res://inventory/inv_slot.gd
+::res://inventory/Items/::1724574448
+::res://inventory/Items/Resources/::1724574448
+Apple.tres::Resource/InvItem::761462625410120768::1724574448::0::1::::<><>::res://inventory/inventory_item.gd<>uid://by76lpuyqy3sy::::res://art/Fruits&Vegetables/apple.png
+Banana.tres::Resource/InvItem::7427714491875653345::1724574448::0::1::::<><>::res://inventory/inventory_item.gd<>uid://r8e212ls60d2::::res://art/Fruits&Vegetables/banana.png
+Cherry.tres::Resource/InvItem::647431625456961852::1724574448::0::1::::<><>::res://inventory/inventory_item.gd<>uid://beybtci0h7mh::::res://art/Fruits&Vegetables/cherry.png
+Grapes.tres::Resource/InvItem::1983737230955080480::1724574448::0::1::::<><>::res://inventory/inventory_item.gd<>uid://cgl1apf4wax8h::::res://art/Fruits&Vegetables/grapes.png
+Lemon.tres::Resource/InvItem::4078451652030762429::1724574448::0::1::::<><>::res://inventory/inventory_item.gd<>uid://pxdtkcly33xe::::res://art/Fruits&Vegetables/lemon.png
+::res://Scenes/::1724574448
+Enemy.tscn::PackedScene::5039389183976843691::1724574448::0::1::::<><>::
+entity.tscn::PackedScene::8069955230015758960::1724574448::0::1::::<><>::res://Entity.gd
+HitBox.gd::GDScript::-1::1724574448::0::1::::HitBox<>CollisionShape2D<>::
+ItemDrop.tscn::PackedScene::9048743922672700437::1724574448::0::1::::<><>::res://ItemDrop.gd
+main_screen.tscn::PackedScene::301368173955772978::1724574448::0::1::::<><>::res://Main screen.gd<>uid://cfb3tkjyrdtli::::res://Scenes/player_2Darea.tscn<>uid://dhj1ukkpjk2cv::::res://art/MasterSimple.png<>uid://fe4ipb1xqd6m::::res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Tileset/spr_grass_tileset.png<>uid://b4o6p01w1sqit::::res://Scenes/tree.tscn<>uid://bfvrvksrc01d1::::res://Scenes/mob.tscn<>uid://d16jqw4o6tv62::::res://Scenes/ItemDrop.tscn<>uid://dd3bmwt5pv4kb::::res://inventory/Items/Resources/Banana.tres<>uid://3i64k5o8v8t5::::res://inventory/Items/Resources/Grapes.tres<>uid://jhvdssvtdgjk::::res://inventory/Items/Resources/Cherry.tres<>uid://bydvrdju2dyn2::::res://inventory/Items/Resources/Lemon.tres
+mob.tscn::PackedScene::2781787079083619568::1724574448::0::1::::<><>::res://Mob.gd<>res://Entity.gd<>uid://duyr4gf748vfy::::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_hurt.png<>uid://os2xxben5lj1::::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_idle.png<>res://inventory/inventory.gd<>uid://dl40wambadm74::::res://art/Pixelarium - Enemy Pack1 - Free Version/Golbin/spr_goblin_walk.png<>uid://3i64k5o8v8t5::::res://inventory/Items/Resources/Grapes.tres<>res://inventory/inv_slot.gd
+player_2Darea.tscn::PackedScene::5127584509462127154::1724574448::0::1::::<><>::uid://bdgqnxf47i5ts::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_1.png<>res://player_2Darea.gd<>uid://dmfpxrkfrx72w::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_1.png<>uid://b8p3ctrbwe1eb::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_1.png<>uid://cplj5uhm1sjjw::::res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_1.png<>uid://d1o11nrovhut0::::res://inventory/playerinv.tres<>uid://bwoyewcfisdqs::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_2.png<>uid://cg5efu1bchnt8::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_2.png<>uid://ct4fdpexcb1ba::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_2.png<>uid://bexiqiia1qhu3::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_3.png<>uid://dt66rwilqqriv::::res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_2.png<>uid://dx7febgln3ryd::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_3.png<>uid://cjp7w4nxi2u5n::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_4.png<>uid://dn5te2j5mhywy::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_3.png<>uid://dd6h80j5h7dfk::::res://art/Warrior/Individual Sprite/Fall/Warrior_Fall_3.png<>uid://r7nkpd7861m6::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_4.png<>uid://crqdglsstmgwk::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_5.png<>uid://cv2fyy8o14887::::res://art/Warrior/Individual Sprite/Dash_NoDust/Warrior_Dash_4.png<>uid://b30js4kjmxo3r::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_5.png<>uid://cni8vgscr43ma::::res://art/Warrior/Individual Sprite/idle/Warrior_Idle_6.png<>uid://dx4w4omas2uib::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_6.png<>uid://1dsd3y4f0eh6::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_1.png<>uid://dnj0kdq57asrx::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_7.png<>uid://dsqkot40fd5av::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_2.png<>uid://518lvggxax13::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_8.png<>uid://barwcxavx6aj7::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_3.png<>uid://dr8grntjnpgfq::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_9.png<>uid://c7lgqdln113cn::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_10.png<>uid://46l6l068u8jm::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_4.png<>uid://l8f85yrsrf6r::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_11.png<>uid://x2cegr17034o::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_5.png<>uid://cf1at6mx5fwgr::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_6.png<>uid://csjepvxr6rfxa::::res://art/Warrior/Individual Sprite/Attack/Warrior_Attack_12.png<>uid://cfi608m354uwm::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_7.png<>uid://sa5w4aij2u0r::::res://art/Warrior/Individual Sprite/Run/Warrior_Run_8.png<>uid://djkp0bjbh7c5s::::res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png<>uid://b7sxftfp25v7y::::res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png<>uid://d0b53xe5euy1k::::res://art/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png<>res://Scenes/Sword.gd<>res://Scenes/HitBox.gd<>uid://kqeee8pcvpaw::::res://inventory/inv_ui.tscn
+Sword.gd::GDScript::-1::1724574448::0::1::::<>Area2D<>::
+tree.gd::GDScript::-1::1724574448::0::1::::_Tree<>StaticBody2D<>::
+tree.tscn::PackedScene::4452708805720929619::1724574448::0::1::::<><>::res://Scenes/tree.gd<>uid://k34gb8s68ie7::::res://inventory/Items/Resources/Apple.tres<>res://inventory/inventory.gd<>uid://ch51dei4h0rg8::::res://art/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Vegetation/spr_tree1.png<>res://inventory/inv_slot.gd<>uid://dm8e8pbsj6x1y::::res://Scenes/entity.tscn
